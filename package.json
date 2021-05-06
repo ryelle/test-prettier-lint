@@ -1,0 +1,16 @@
+{
+	"name": "test-prettier-lint",
+	"version": "0.0.1",
+	"scripts": {
+		"lint:js": "wp-scripts lint-js src",
+		"format:js": "wp-scripts format src"
+	},
+	"prettier": "./.prettierrc.js",
+	"eslintConfig": {
+		"extends": "./eslintrc.js"
+	},
+	"dependencies": {
+		"@wordpress/eslint-plugin": "^9.0.4",
+		"@wordpress/scripts": "^15.0.1"
+	}
+}
